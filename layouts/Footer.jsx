@@ -24,8 +24,8 @@ const Footer = () => {
                                     <p>
                                         <i className="fa fa-envelope"></i> &nbsp; &nbsp;
                                         <a
-                                            href="mailto:admin@trasteosgomezgomez.com">
-                                            admin@trasteosgomezgomez.com
+                                            href="mailto:gomezgomeztrasteos@gmail.com">
+                                            gomezgomeztrasteos@gmail.com
                                         </a>
                                     </p>
                                     <p>

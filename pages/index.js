@@ -131,14 +131,14 @@ export default function Home() {
       <Whatsapp />
       <BackTopFloat />
 
+      <Footer />
+
       <Script strategy='afterInteractive' src="assets/js/popper.min.js" />
       <Script strategy='afterInteractive' src="assets/js/swiper.min.js" />
       <Script strategy='afterInteractive' src="assets/js/plugins.js" />
       <Script strategy='afterInteractive' src="assets/js/wow.min.js" />
       <Script strategy='lazyOnload' src="assets/js/main.js" />
       <Script strategy='lazyOnload' src="assets/js/bootstrap.min.js" />
-
-      <Footer />
     </>
   )
 }
