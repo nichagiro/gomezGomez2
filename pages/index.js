@@ -81,7 +81,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <meta charset="utf-8" />
+        <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="keywords" content="Mudanzas, trasteos, embalaje, bodegaje, camiones de carga, gomez gomez" />
         <meta name="description" content="Trasteos Gomez Gomez, servicio de mudanzas, trasnporte de calidad, alta productividad en bodegaje, embalaje, trasteos nacionales e internacionales." />
@@ -91,7 +91,7 @@ export default function Home() {
         <meta name="language" content="es" />
         <meta name="revisit-after" content="7 days" />
         <meta name="robots" content="index, follow" />
-        <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+        <meta httpEquiv="Content-Type" content="text/html; charset=ISO-8859-1" />
         <title>Trasteos Gomez Gomez | Mudanzas | Bodegaje | Embalaje</title>
         <link rel="canonical" href="https://trasteosgomezgomez.com/" />
         <meta property="og:title" content="Trasteos Gomez Gomez | Mudanzas | Bodegaje | Embalaje" />

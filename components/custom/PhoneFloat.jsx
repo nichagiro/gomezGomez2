@@ -11,37 +11,37 @@ const PhoneFloat = () => {
                 <li className="text-center">
                     <a href="tel:6024396831" className="text-white">
                         <i className="fa fa-phone-square"></i>
-                        439 6831
+                        &nbsp; 439 6831
                     </a>
                 </li>
                 <li className="text-center">
                     <a href="tel:6025244494" className="text-white">
                         <i className="fa fa-phone-square"></i>
-                        524 4494
+                        &nbsp; 524 4494
                     </a>
                 </li>
                 <li className="text-center">
                     <a href="tel:6024393880" className="text-white">
                         <i className="fa fa-phone-square"></i>
-                        439 3880
+                        &nbsp;439 3880
                     </a>
                 </li>
                 <li className="text-center">
                     <a href="tel:3105334254" className="text-white">
                         <i className="fa fa-phone-square"></i>
-                        310 533 4254
+                        &nbsp;310 533 4254
                     </a>
                 </li>
                 <li className="text-center">
                     <a href="tel:3105334254" className="text-white">
                         <i className="fa fa-phone-square"></i>
-                        310 533 4254
+                        &nbsp; 310 533 4254
                     </a>
                 </li>
                 <li className="text-center">
                     <a href="tel:3155220780 " className="text-white">
                         <i className="fa fa-phone-square"></i>
-                        315 522 0780
+                        &nbsp; 315 522 0780
                     </a>
                 </li>
             </ul>

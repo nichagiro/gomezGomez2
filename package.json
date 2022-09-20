@@ -6,12 +6,17 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next export",
+    "prod": "next build && next export",
+    "serve": "serve out/"
   },
   "dependencies": {
+    "firebase": "^9.10.0",
     "next": "12.3.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "sweetalert2": "^11.4.33"
   },
   "devDependencies": {
     "eslint": "8.23.1",

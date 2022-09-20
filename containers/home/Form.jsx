@@ -1,6 +1,29 @@
-import React from 'react'
+import React, { useRef } from 'react'
 
 const Form = () => {
+    const form = useRef();
+
+    const sendEmail = async event => {
+        event.preventDefault();
+        const salto = '%0A'
+        const number = '573105334254'
+        const data = new FormData(form.current);
+        const name = data.get('name')
+        const phone = data.get('phone')
+        const subject = data.get('subject')
+        const email = data.get('email')
+        const message = data.get('message')
+        const textFormatter = `*Formulario Trasteos Gomez Gomez*
+            ${salto}${salto}*Nombre:* ${name} 
+            ${salto}*Telefono:* ${phone} 
+            ${salto}*Asunto:* ${subject} 
+            ${salto}*Email:* ${email} 
+            ${salto}*Mensaje:* ${message}`
+
+        window.open(`https://wa.me/${number}?text=${textFormatter}`)
+        form.current.reset()
+    }
+
     return (
         <>
             <div className="row" id="contact">
@@ -13,10 +36,10 @@ const Form = () => {
                     </div>
                 </div>
             </div>
-            <div className="container-fluid shadow-lg wow fadeInUp" style={{visibility: 'visible',  animationName: 'fadeInUp'}}>
+            <div className="container-fluid shadow-lg wow fadeInUp" style={{ visibility: 'visible', animationName: 'fadeInUp' }}>
                 <div className="row text-white flex-column-reverse flex-lg-row">
                     <div className="col-12 col-lg-6 p-4 p-sm-5 p-md-5 text-md-left">
-                        <form id="formy">
+                        <form ref={form} onSubmit={sendEmail}>
                             <div className="row">
                                 <div className="col">
                                     <input type="text"
@@ -52,23 +75,34 @@ const Form = () => {
                             <div className="row my-4">
                                 <div className="col">
                                     <textarea
-                                        name="msg"
+                                        name="message"
                                         className="form-control"
-                                        style={{resize: "none"}}
+                                        style={{ resize: "none" }}
                                         rows="5"
                                         placeholder="Mensaje*"
                                     />
                                 </div>
                             </div>
                             <div className="row justify-content-center">
-                                <button type="submit" id="btn-contact" className="button home-btn-1 js-scroll">
+                                <button
+                                    type="submit"
+                                    className="button home-btn-1 js-scroll"
+                                >
                                     Enviar
                                 </button>
                             </div>
                         </form>
                     </div>
                     <div className="col-12 col-lg-6 d-flex">
-                        <img loading="lazy" className="img-fluid" src="assets/img/8.webp" alt="trasteos gomez gomez" />
+                        <picture>
+                            <source srcSet="/assets/img/8.webp" />
+                            <img
+                                loading="lazy"
+                                className="img-fluid"
+                                src="/assets/img/8.webp"
+                                alt="trasteos gomez gomez"
+                            />
+                        </picture>
                     </div>
                 </div>
             </div>

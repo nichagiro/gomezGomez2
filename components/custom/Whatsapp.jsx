@@ -6,6 +6,7 @@ const Whatsapp = ({ number }) => {
     return (
         <a
             href={`${api}${number}`}
+            rel="noreferrer"
             className="whatsapp d-flex align-items-center justify-content-center wow bounce"
             data-bs-toggle="tooltip"
             data-bs-placement="right"
