@@ -13,7 +13,7 @@ const SliderIntro = () => {
                                         <div className="caption text-center">
                                             <h2>Mudanzas de inmediato</h2>
                                             <h1><span>Ágiles</span> y Efectivos</h1>
-                                            <h3>Atención al usuario, agilidad de trámite, efectividad del servicio, acceso a
+                                            <h3>Atención al usuario, efectividad del servicio, acceso a
                                                 tu bolsillo, somo tu mejor opción. </h3>
                                         </div>
                                     </div>

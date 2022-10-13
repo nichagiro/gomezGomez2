@@ -33,19 +33,11 @@ const History = () => {
                                 </div>
                                 <div className="col-lg-6 col-md-6 d-flex">
                                     <i className="fas fa-check-circle text-success me-2 mt-1"></i>
-                                    <h5>Soporte al usuario</h5>
-                                </div>
-                                <div className="col-lg-6 col-md-6 d-flex">
-                                    <i className="fas fa-check-circle text-success me-2 mt-1"></i>
                                     <h5>Dedicados</h5>
                                 </div>
                                 <div className="col-lg-6 col-md-6 d-flex">
                                     <i className="fas fa-check-circle text-success me-2 mt-1"></i>
                                     <h5>Profesionales</h5>
-                                </div>
-                                <div className="col-lg-6 col-md-6 d-flex">
-                                    <i className="fas fa-check-circle text-success me-2 mt-1"></i>
-                                    <h5>Experiencia</h5>
                                 </div>
                             </div>
                             <a href="#contact" className="button home-btn-1 js-scroll wow slideInRight">
@@ -56,7 +48,12 @@ const History = () => {
                     <div className="col-lg-6 col-md-6">
                         <picture>
                             <source srcSet="/assets/img/9.webp" type="image/webp" />
-                            <img loading="lazy" className="img-fluid rounded" src="/assets/img/9.webp" alt="service image" />
+                            <img
+                                loading="lazy"
+                                className="img-fluid rounded"
+                                src="/assets/img/9.webp"
+                                alt="service image"
+                            />
                         </picture>
                     </div>
                 </div>
