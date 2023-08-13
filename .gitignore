@@ -38,3 +38,7 @@ next-env.d.ts
 # public
 /public/assets/files
 /public/assets/img
+
+#firebase
+.firebase
+.firebaserc
