@@ -22,7 +22,7 @@ const SliderIntro = () => {
 						</div>
 					</div>
 					<div className="swiper-slide">
-						<div className="bg-img valign" data-background="/assets/img/4.webp" data-overlay-dark="5">
+						<div className="bg-img valign" data-background="/assets/img/camion.webp" data-overlay-dark="5">
 							<div className="container">
 								<div className="row">
 									<div className="col-lg-8 col-md-12 offset-lg-2">
