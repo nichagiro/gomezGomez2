@@ -97,12 +97,12 @@ const Form = () => {
                 </div>
               </form>
             </div>
-            <div className="col-12 col-lg-6 d-flex">
+            <div className="d-none d-lg-inline col-lg-6 d-flex">
               <picture>
                 <source srcSet="/assets/img/8.webp" />
                 <img
                   loading="lazy"
-                  className="img-fluid"
+                  className="img-fluid p-5"
                   src="/assets/img/8.webp"
                   alt="trasteos gomez gomez"
                 />

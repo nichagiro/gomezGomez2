@@ -88,33 +88,34 @@
 	});
 	
 	// Back to top button 
-	$(function () {
-		// Scroll Event
-		$(window).on('scroll', function () {
-			var scrolled = $(window).scrollTop();
-			if (scrolled > 300) $('.back-to-top').addClass('active');
-			if (scrolled < 300) $('.back-to-top').removeClass('active');
-		});
-		// Click Event
-		$('.back-to-top').on('click', function () {
-			$("html, body").animate({
-				scrollTop: "0"
-			}, 500);
-		});
-	});
+	// $(function () {
+	// 	// Scroll Event
+	// 	$(window).on('scroll', function () {
+	// 		var scrolled = $(window).scrollTop();
+	// 		if (scrolled > 300) $('.back-to-top').addClass('active');
+	// 		if (scrolled < 300) $('.back-to-top').removeClass('active');
+	// 	});
+	// 	// Click Event
+	// 	$('.back-to-top').on('click', function () {
+	// 		$("html, body").animate({
+	// 			scrollTop: "0"
+	// 		}, 500);
+	// 	});
+	// });
+	
 	//  Star Scrolling nav
-	$('a.js-scroll[href*="#"]:not([href="#"])').on("click", function () {
-		if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-			var target = $(this.hash);
-			target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-			if (target.length) {
-				$('html, body').animate({
-					scrollTop: (target.offset().top - navHeight + 30)
-				}, 1000, "easeInOutExpo");
-				return false;
-			}
-		}
-	});
+	// $('a.js-scroll[href*="#"]:not([href="#"])').on("click", function () {
+	// 	if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+	// 		var target = $(this.hash);
+	// 		target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+	// 		if (target.length) {
+	// 			$('html, body').animate({
+	// 				scrollTop: (target.offset().top - navHeight + 30)
+	// 			}, 1000, "easeInOutExpo");
+	// 			return false;
+	// 		}
+	// 	}
+	// });
 	// Closes responsive menu when a scroll trigger link is clicked
 	$('.js-scroll').on("click", function () {
 		$('.navbar-collapse').collapse('hide');

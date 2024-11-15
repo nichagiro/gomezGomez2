@@ -460,9 +460,7 @@ ul {
 }
 
 [data-overlay-dark]:before {
-	background: linear-gradient(150deg, #000, #090909 50%, var(--color-primary));
-	/* background: linear-gradient(90deg,var(--color-primary),#2385b2 50%,var(--color-primary)); */
-	/* linear-gradient(90deg,#9c27b0,var(--color-primary) 50%,#9c27b0) */
+	background: linear-gradient(150deg, #000, #090909 50%, black);
 }
 
 [data-overlay-light]:before {
@@ -784,7 +782,7 @@ ul {
 }
 
 .navbar-b.navbar-trans .nav-link {
-	color: var(--color-primary);
+	color: white;
 	text-transform: uppercase;
 	font-weight: 500;
 	font-size: 20px;
@@ -819,13 +817,11 @@ ul {
 .navbar-b.navbar-trans .nav-link.show,
 .navbar-b.navbar-trans .nav-link.active {
 	color: var(--color-primary);
-	background: #fff;
 }
 
 .navbar-b.navbar-reduce {
 	transition: all .5s ease-in-out;
 	background-color: #fff;
-	padding-top: 15px;
 	padding-bottom: 15px;
 	-webkit-animation: 500ms ease-in-out 0s normal fadeInDown;
 	animation: 500ms ease-in-out 0s normal fadeInDown;
@@ -833,9 +829,10 @@ ul {
 	transition: 0.6s;
 }
 
-.navbar-b.navbar-reduce .nav-link {
-	/* color: #333; */
-}
+/* active links */
+/* .navbar-b.navbar-reduce .nav-link {
+	color: #333;
+} */
 
 .navbar-b.navbar-reduce .nav-link:hover {
 	color: var(--color-primary);

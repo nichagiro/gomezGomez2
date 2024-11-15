@@ -45,14 +45,6 @@ const Footer = () => {
                       }
                     </a>
                   </p>
-                  <p>
-                    <i className="fas fa-file-pdf"></i> &nbsp; &nbsp;
-                    <a target="_blank"
-                      href="assets/files/protocolobioseguridad.pdf"
-                    >
-                      Protocolo de bioseguridad
-                    </a>
-                  </p>
                 </div>
               </div>
             </div>
